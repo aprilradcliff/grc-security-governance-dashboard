@@ -1,88 +1,62 @@
 # 🔐 GRC Security Governance Dashboard (Jira)
 
-## Overview
+## 📌 Overview
+
 This project demonstrates the design and implementation of a Governance, Risk, and Compliance (GRC) workflow using Jira to simulate real-world cybersecurity operations.
 
-It models how security teams track, prioritize, and report on:
-- Vulnerability remediation  
-- Access control reviews (IAM)  
-- MFA exception handling  
-- Vendor risk (SOC 2 compliance)  
-- Regulatory compliance (HIPAA)  
-- Security awareness initiatives  
+The dashboard models how security teams track, prioritize, and report on risk across an organization, providing visibility into remediation efforts, compliance activities, and operational status.
 
 ---
 
-## 🏗️ Project Design
+## 🎯 Key Capabilities
 
-The system was built using a Kanban-based workflow to represent active security operations:
-
-### Workflow Stages
-- To Do  
-- In Progress  
-- Done  
-
-### Key Design Decisions
-- Priority-based risk classification (Critical → Low)  
-- Label-based categorization (IAM, vendor risk, compliance, remediation)  
-- Realistic GRC ticket scenarios and lifecycle progression  
-
----
-
-## 📊 Dashboard & Reporting
-
-The dashboard provides visibility into security operations through:
-
-### 🔹 Priority Distribution
-Visualizes risk concentration across all tracked issues to support prioritization decisions.
-
-### 🔹 Issue Tracking (Filter Results)
-Displays active and completed work, enabling operational monitoring of remediation and compliance activities.
-
-### 🔹 Priority vs Status Analysis
-Highlights workflow bottlenecks and shows how high-risk issues progress through the lifecycle.
-
----
-
-## 🎯 Use Case Simulation
-
-This dashboard reflects how a security or GRC team would:
-
-- Track remediation of critical findings  
-- Perform periodic access reviews  
-- Evaluate and approve risk exceptions  
-- Monitor vendor compliance requirements  
-- Maintain regulatory security policies  
-- Run organization-wide security awareness campaigns  
+- Track and manage security findings and remediation tasks
+- Perform access control reviews (IAM governance)
+- Handle MFA exception requests and approvals
+- Monitor vendor compliance (SOC 2)
+- Manage security policy updates (HIPAA)
+- Execute phishing awareness campaigns
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Governance, Risk, and Compliance (GRC) concepts  
-- Security operations workflow design  
-- Risk prioritization and classification  
-- Jira project and dashboard configuration  
-- Data visualization for security reporting  
-- Analytical thinking in security operations  
+- Governance, Risk, and Compliance (GRC) frameworks
+- Risk prioritization and classification
+- Security operations workflow design
+- Jira project configuration and dashboard creation
+- Data visualization for security reporting
+- Analytical thinking in cybersecurity operations
 
 ---
 
-## 📸 Screenshots
+## 📊 Dashboard Visuals
 
 ### Priority Distribution
-![Priority Chart](dashboard-screenshots/grc-security-dashboard_priority-distribution_pie-chart.png)
+![Priority Distribution](dashboard-screenshots/grc-security-dashboard_priority-distribution_pie-chart.png)
 
-### Issue Tracker
+### Issue Tracker (GRC Security Issues)
 ![Issue Tracker](dashboard-screenshots/grc-security-dashboard_issue-tracker_filter-results.png)
 
 ### Priority vs Status Analysis
-![Analysis](dashboard-screenshots/grc-security-dashboard_priority-vs-status_analysis.png)
+![Priority vs Status](dashboard-screenshots/grc-security-dashboard_priority-vs-status_analysis.png)
 
 ---
 
 ## 💡 Why This Matters
 
-This project demonstrates how Jira can be used to support structured cybersecurity governance and operational visibility, not just basic task tracking.
+This project demonstrates how Jira can be used beyond basic task management to support structured cybersecurity governance and operational visibility.
 
-It reflects how security teams prioritize risk, manage remediation efforts, and communicate status through reporting and dashboards.
+It reflects how security teams:
+- Prioritize risk based on impact and urgency
+- Track remediation progress across multiple issue types
+- Communicate status clearly to stakeholders
+- Maintain accountability in compliance-driven environments
+
+---
+
+## 🏁 Outcome
+
+This dashboard provides a clear, centralized view of security operations, enabling better decision-making, improved risk management, and more efficient compliance tracking.
+
+It simulates the type of reporting and workflow structure used in real-world GRC and security operations teams.
