@@ -111,9 +111,14 @@ The project includes simulated enterprise cybersecurity activities such as:
 
 ![Priority vs Status Analysis](./security-governance-priority-status-analysis.png)
 
+### Security Workflow Board
+
+![Security Workflow Board](./security-governance-kanban-workflow.png)
+
 ### Example Security Investigation Workflow
 
 ![Critical VPN Vulnerability Ticket](./critical-vpn-vulnerability-remediation-ticket.png)
+
 ---
 
 # 💡 Why This Matters
